@@ -1,0 +1,21 @@
+//git
+
+git init
+git branch -m main
+git add .
+
+
+//pip
+pip freeze > requirements
+pip install sqlalchemy
+pip install sqlalchemy_utils
+pip install pytest
+pip install -r requirements.txt
+
+//pytest
+pytest -v // verbose flag
+pytest -s // see prints statements
+
+
+//page url
+https://pytest-with-eric.com/pytest-advanced/pytest-fastapi-testing/
