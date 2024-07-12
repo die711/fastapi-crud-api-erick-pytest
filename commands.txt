@@ -1,8 +1,12 @@
 //git
-
 git init
 git branch -m main
 git add .
+git commit -m 'first commit with initial api'
+git remote -r
+git remote add origin https://github.com/die711/fastapi-crud-pytest.git
+git push origin -u main
+git pull
 
 
 //pip
